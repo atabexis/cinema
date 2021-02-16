@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:700&display=swap');
+*{margin: 0; padding: 0}
+.wrapper{
+    background-image: url("img/bg.png");
+    background-size: cover;
+    height: 100vh;
+}
+.navbar{
+    position: fixed;
+    left: 0;
+    top: 0;
+    height: 90px;
+    width: 100%;
+    background: rgba(0,0,0,0.4);
+}
+.logo{
+    width: 293px;
+    height: auto;
+    padding-left: 65px;
+    padding-top: 10px;
+}
+.navbar ul{
+    float: right;
+    margin-right: 20px;
+}
+.navbar ul li {
+    list-style: none;
+    display: inline-block;
+    margin-top: 0;
+    margin-right: 44px;
+    line-height: 85px;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    font-size: 20px;
+    color: lavenderblush;
+    font-family: 'Roboto', sans-serif;
+    padding: 6px 13px;
+
+}
+.navbar ul li a.active,
+.navbar ul li a:hover {
+    background: darkred;
+    border-radius: 2px;
+}
+.center{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: 'Roboto Slab', sans-serif;
+    font-size: 40px;
+    width: 900px;
+    font-weight: Bold;
+    color: lightgoldenrodyellow;
+    text-align: center;
+}
+.center h2{
+    color: lavenderblush;
+    font-size: 30px;
+    font-weight: bold;
+}
+button{
+    color: #fff;
+    text-decoration: none;
+    user-select: none;
+    background: darkred;
+    padding: 16px;
+    font-size: 20px;
+
+}
+button.hover,
+button:active{
+    background-color: rgb(212,75,56);;
+}
+
+.button{
+    padding-top: 20px;
+
+}
+.section{
+    background: lightgray;
+}
+.poster{
+    width: 250px;
+    height: auto;
+
+}
+.layer1, .layer2, .layer2, .layer3,.layer4{
+    display: inline-block;
+    padding: 12px;
+    border-radius: 10px;
+    background: snow;
+    width: 250px;
+    height: 100%;
+    margin: 50px 30px 50px 29px;
+    color: gray;
+
+}
+p{
+    font-family: 'Nirmala UI', sans-serif;
+    font-weight: revert;
+    font-size: 14px;
+}
